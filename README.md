@@ -1,4 +1,12 @@
-gitmaps-ttccamp
+Using GitHub For Quick and Dirty Maps
 ===============
 
-Demo for activists and burgeoning techies to use Github maps integration for quick-and-dirty visualization.
+So at one of the [TTC Info-Activism Camp 2013](https://camp2013.tacticaltech.org) skillshares, we tried to do an intro to publishing maps using Github. We thought it would be useful not necessarily for doing complex visualizations but just to get a quick visual overview of your data. For example, if you have a bunch of point data (like addresses) and you want to see if there are any important trends or clusters of locations close to each other, it's a lot easier to identify those patterns visually than by looking at a spreadsheet.
+
+One flaw in this skillshare was realizing **most people who don't know much about visualizing data might not know much about Github**. And they definitely don't know much about the command line, so they're not going to understand the part about committing a repository to work from it--nor will they likely ever need to. (Or if they do, this is not the tutorial for helping them do that--[this GitHub tutorial](http://try.github.io/levels/1/challenges/1) probably is better for that!)
+
+So rather than adding in steps introducing GitHub that might not be that important to someone who just wants to see their data on a map, I thought I'd make a repo with some examples and tutorials that people could just [fork](https://help.github.com/articles/fork-a-repo). This creates a copy of the repository on GitHub for a user--technically it is better to clone the repository to your local machine, but (and please someone tell me if this is incorrect!) if you're just demo-ing something and are just going to be doing quick edits it's not crucial. 
+
+If your response to that last sentence was "I don't know what those words mean when they're next to each other", you're in luck: they're not actually too important to what you're doing. All you're doing is making a copy of this repository and editing the geoJSON files with your own data. If you're like me and you really really want to learn this stuff, I'd recommend getting into the GitHub tutorials themselves.
+
+This is *not* a total solution for visualizing geodata. It's a good way to start scratching the surface of your data and learning how to use GitHub and open-source mapping libraries. The [GitHub Mapping Doucmentation](https://help.github.com/articles/mapping-geojson-files-on-github) is a great start, and the [LeafletJS documentation](http://leafletjs.com/examples/geojson.html) and [Mapbox Marker Styling](http://www.mapbox.com/developers/simplestyle/) also are helpful resources. 
