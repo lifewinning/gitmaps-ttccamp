@@ -37,6 +37,6 @@ In the [Mapbox tutorial](http://www.mapbox.com/geo-for-google-docs/) this should
 
 If you open the .geojson files in this repo, they'll render as maps. You can also view the raw code. On one of the files, you can elect to go in and edit the file. (I'm not sure why point data can be edited but polygon data can't.)
 
-###4. copy/pase your GeoJSON into the editable file. 
+###4. copy/paste your GeoJSON into the editable file. 
 
 And now you should be able to see your own map! Hooray!
