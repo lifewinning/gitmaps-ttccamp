@@ -23,8 +23,9 @@ To put data points on a map, we need to geocode it (i.e. identify the exact lat/
 
 I was originally going to write out all of these instructions again, but I realized it might be easier to send you to documentation that I used to learn how to do this. These are not the only methods, they're just the ones I know. 
 
-[Mapbox's Geo for Google Docs plugin](http://www.mapbox.com/geo-for-google-docs/) | a plugin for Google Spreadsheets to geocode data. The only deprecated part of these instructions is you no longer have to install the plugin by copying the source code--you can just select 
-[School of Data geocoding tutorial](http://schoolofdata.org/handbook/recipes/geocoding/) A different method--which I haven't actually tried--if you prefer. School of Data also has a nice [overview](http://schoolofdata.org/handbook/courses/geocoding/) on the concept of geocoding that is helpful if you want to get a more detailed overview of concepts. 
++   [Mapbox's Geo for Google Docs plugin](http://www.mapbox.com/geo-for-google-docs/) | a plugin for Google Spreadsheets to geocode data. The only deprecated part of these instructions is you no longer have to install the plugin by copying the source code--you can just select 
++   [School of Data geocoding tutorial](http://schoolofdata.org/handbook/recipes/geocoding/) A different method--which I haven't actually tried--if you prefer. 
++   School of Data also has a nice [overview](http://schoolofdata.org/handbook/courses/geocoding/) on the concept of geocoding that is helpful if you want to get a more detailed overview of concepts. 
 
 ###2. Turn Data into GeoJSON file
 
@@ -36,4 +37,4 @@ If you open the .geojson files in this repo, they'll initially render as maps. B
 
 ###4. Paste in your GeoJSON
 
-And now you should be able to see your own map! 
+And now you should be able to see your own map! Hooray! 
