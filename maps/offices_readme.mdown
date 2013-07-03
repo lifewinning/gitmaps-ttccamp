@@ -60,7 +60,7 @@ Let's take a look at some of this code:
          }
      
 
-A few things you might notice: 
+###A few things you might notice: 
 
 Each point on the map is in a set of curly brackets, and within *that* set of brackets there are 2 kinds of data in separate brackets: **properties** and **geometry**. 
 
@@ -68,7 +68,7 @@ The properties are what they sound like: information about your data point. In t
 
 Geometry is what it sounds like too: it has the information about the physical location of that specific point on the map. In fact, in geoJSON it identifies whether or not the data is a point, a line, or a polygon.
 
-You might have noticed that the latitute and longitude appears twice, both in properies and geometry. That's because the plugin I used to convert my Google Spreadsheet data into a geoJSON exports all my columns into properties, and I tell it which columns to use for latitute and longitude. 
+You might have noticed that latitute and longitude appears twice, both in properies and geometry. That's because the plugin I used to convert my Google Spreadsheet data into a geoJSON exports all my columns into properties, and I tell it which columns to use for latitute and longitude. 
 
 Did you notice this line in the properties section?
 
@@ -81,3 +81,5 @@ If we look at some of the other data points in the file, you'll notice there's a
 GitHub offers some basic styling of point-based data that, for super-simple visualizations, is pretty useful. What I had to do was add a column to my Google Spreadsheet named marker-color and identify the color I wanted to use. Then when I exported it to GeoJSON and added it to GitHub, Github already understood what to do. Try adding marker-size to any of the data points in the example code to get an idea of what else you can do. 
 
 More on formatting markers is in the [GitHub Mapping Doucmentation](https://help.github.com/articles/mapping-geojson-files-on-github). 
+
+One more thing: take a look at the point on the map that's way out in Queens. That's not where it's supposed to be! How did this happen? Well, geocoders can be persnickety. Sometimes if an address isn't written exactly they way they understand it, they'll go to the next closest option. Since there's a 44th Street in Manhattan and a 44th Street in Queens, it looks like it just assumed the wrong borough based on how I wrote the address. That's another interesting use for this feature: data validation. After you've gathered and geocoded your data it's good to check that it's accurate. To resolve this, I can try entering the address in a different way (removing the "W" in "W. 44th", for example) or I can use one of many websites that allows you to geocode one point at a time. 
