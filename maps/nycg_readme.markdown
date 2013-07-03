@@ -5,7 +5,7 @@ This is New York Congressional District data. I downloaded it as a shapefile fro
 
 
 This is taking hella long to load. 
----------------------------------=
+----------------------------------
 
 Polygons are a lot more complicated as data objects than single points. A point just has two coordinates you need to know: the latitute and the longitude. A polygon has lots and lots of points that are linked together to make one single shape. More points, more data, bigger file. 
 
