@@ -1,0 +1,83 @@
+Point Data: Offices
+===================
+
+Here is some data on offices of private security contractors' offices in New York, also some interesting tech companies' U.S. office. I made this file using the Mapbox Geo plugin. You can view my original spreadsheet [here](https://docs.google.com/spreadsheet/ccc?key=0AkuokbMVYNRxdExsUFBhUmZXRWhMWmQxUEFyWWdGbEE&usp=sharing)
+
+A few things to note in the data 
+--------------------------------
+
+When you look at the code of the file, it should appear as a bunch of neatly formatted, properly tabbed data objects, like this: 
+
+      {
+         "id":"SAIC",
+         "properties":{
+            "Name":"SAIC",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"132 WEST 31ST STREET, New York, NY 10001",
+            "geo_longitude":-73.9901956122449,
+            "geo_latitude":40.7482376122449,
+            "Floor":"6th and 8th Floors"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9901956122449,
+               40.7482376122449
+            ]
+         }
+     
+
+ This is *not* how the .geoJSON is formatted when you first open it.  It'll look more like basically your computer throwing up code, like this: 
+
+ 	{"id":"SAIC","properties":{"Name":"SAIC","Type":"Security contractor","marker-color":"#18BC75","Location":"132 WEST 31ST STREET, New York, NY 10001","geo_longitude":-73.9901956122449,"geo_latitude":40.7482376122449,"Floor":"6th and 8th Floors"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9901956122449,40.7482376122449]}}
+	
+Whoa! That's so confusing to look at if you're a human and not a machine! 
+
+To make the file something human-readable, I used an online formatter. There are loads of these online, so you don't have to use [the one I used](http://jsonformatter.curiousconcept.com/) but well, that's one. 
+
+Let's take a look at some of this code: 
+
+	      {
+         "id":"SAIC",
+         "properties":{
+            "Name":"SAIC",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"132 WEST 31ST STREET, New York, NY 10001",
+            "geo_longitude":-73.9901956122449,
+            "geo_latitude":40.7482376122449,
+            "Floor":"6th and 8th Floors"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9901956122449,
+               40.7482376122449
+            ]
+         }
+     
+
+A few things you might notice: 
+
+Each point on the map is in a set of curly brackets, and within *that* set of brackets there are 2 kinds of data in separate brackets: **properties** and **geometry**. 
+
+The properties are what they sound like: information about your data point. In this case, that includes the name of the company, they type of company, the physical address, and the floor of the building. 
+
+Geometry is what it sounds like too: it has the information about the physical location of that specific point on the map. In fact, in geoJSON it identifies whether or not the data is a point, a line, or a polygon.
+
+You might have noticed that the latitute and longitude appears twice, both in properies and geometry. That's because the plugin I used to convert my Google Spreadsheet data into a geoJSON exports all my columns into properties, and I tell it which columns to use for latitute and longitude. 
+
+Did you notice this line in the properties section?
+
+	"marker-color":"#18BC75",
+
+If we look at some of the other data points in the file, you'll notice there's also some that have this instead: 
+
+	"marker-color":"#C69FCA",
+
+GitHub offers some basic styling of point-based data that, for super-simple visualizations, is pretty useful. What I had to do was add a column to my Google Spreadsheet named marker-color and identify the color I wanted to use. Then when I exported it to GeoJSON and added it to GitHub, Github already understood what to do. Try adding marker-size to any of the data points in the example code to get an idea of what else you can do. 
+
+More on formatting markers is in the [GitHub Mapping Doucmentation](https://help.github.com/articles/mapping-geojson-files-on-github). 

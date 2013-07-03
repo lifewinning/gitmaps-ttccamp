@@ -23,3 +23,12 @@ But, as long as I have your attention, here is a breakdown of who might benefit 
 +   **Longer-term: what kind of data are you working with, and do you feel OK with Google having it?** This repository isn't necessarily a solution for making super-private maps, but if that's something you're interested in, start by learning this stuff. Google's not going to build you a solution for escaping Google. 
 
 This is kind of getting ahead of ourselves--you wanted to make a map, not get a lecture about open source! This is what blogs are for. Check out the rest of the documentation and examples, and let's actually make a thing.
+
+I don't like this tool. What else is out there? 
+-----------------------------------------------
+
+In addition to Google Fusion Tables, [CartoDB](http://cartodb.com) also offers a fairly straightforward point-and-click approach to storing and visualizing data. If you're looking for a less code-heavy way to learn about making pretty maps, this might be a good solution for you. You get a limited number of free maps and storage space with an account, after which point you'll need a paid one. 
+
+I'm a fan of [Field Papers](http://fieldpapers.org/) as a combination data collection and visualization tool. It was initially created to help people doing recovery work in Haiti following the earthquake. If your data is really stuff that's out "in the field" and you want to collect it by actually drawing it, this is a neat way to do that. 
+
+

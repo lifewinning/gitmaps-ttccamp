@@ -1,1 +1,245 @@
-{"features":[{"id":"SAIC","properties":{"Name":"SAIC","Type":"Security contractor","marker-color":"#18BC75","Location":"132 WEST 31ST STREET, New York, NY 10001","geo_longitude":-73.9901956122449,"geo_latitude":40.7482376122449,"Floor":"6th and 8th Floors"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9901956122449,40.7482376122449]}},{"id":"SAIC","properties":{"Name":"SAIC","Type":"Security contractor","marker-color":"#18BC75","Location":"140 BROADWAY, NEW YORK, NEW YORK 10005","geo_longitude":-74.0105674444444,"geo_latitude":40.7089726666667,"Floor":"Rooms 4602, 4612, \u0026 4613"},"type":"Feature","geometry":{"type":"Point","coordinates":[-74.0105674444444,40.7089726666667]}},{"id":"SAIC","properties":{"Name":"SAIC","Type":"Security contractor","marker-color":"#18BC75","Location":"1745 BROADWAY,\nNEW YORK, NEW YORK 10019","geo_longitude":-73.9824792290579,"geo_latitude":40.7652547054801,"Floor":"17th Floor"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9824792290579,40.7652547054801]}},{"id":"Booz Allen Hamilton","properties":{"Name":"Booz Allen Hamilton","Type":"Security contractor","marker-color":"#18BC75","Location":"1095 Avenue of the Americas, New York, NY","geo_longitude":-73.9847797019841,"geo_latitude":40.7546512716628,"Floor":"25th Floor"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9847797019841,40.7546512716628]}},{"id":"G4S","properties":{"Name":"G4S","Type":"Security contractor","marker-color":"#18BC75","Location":"19 W 44th Street, New York, NY","geo_longitude":-73.9069332,"geo_latitude":40.7687963,"Floor":"Suite 305"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9069332,40.7687963]}},{"id":"Palantir Technologies Inc. ","properties":{"Name":"Palantir Technologies Inc. ","Type":"Security contractor","marker-color":"#18BC75","Location":"15 Little W. 12th St., New York, NY","geo_longitude":-74.0067555,"geo_latitude":40.739899,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-74.0067555,40.739899]}},{"id":"L-3 Communications","properties":{"Name":"L-3 Communications","Type":"Security contractor","marker-color":"#18BC75","Location":"600 3rd Ave, New York, NY 10016","geo_longitude":-73.9759175445923,"geo_latitude":40.7493053,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9759175445923,40.7493053]}},{"id":"Lockheed Martin","properties":{"Name":"Lockheed Martin","Type":"Security contractor","marker-color":"#18BC75","Location":"420 Lexington Avenue, New York, NY 10170\u200e","geo_longitude":-73.97533,"geo_latitude":40.75275,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.97533,40.75275]}},{"id":"Microsoft","properties":{"Name":"Microsoft","Type":"Private Company complicit in PRISM","marker-color":"#C69FCA","Location":"1290 6th Avenue, New York, NY 10104 ","geo_longitude":-73.9796,"geo_latitude":40.76133,"Floor":"6th Floor"},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.9796,40.76133]}},{"id":"Google","properties":{"Name":"Google","Type":"Private Company complicit in PRISM","marker-color":"#C69FCA","Location":"76 9th Ave, New York, NY 10011","geo_longitude":-74.0043359,"geo_latitude":40.7418363,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-74.0043359,40.7418363]}},{"id":"Apple","properties":{"Name":"Apple","Type":"Private Company complicit in PRISM","marker-color":"#C69FCA","Location":"401 W 14th St, New York, NY","geo_longitude":-74.0054573,"geo_latitude":40.7411861,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-74.0054573,40.7411861]}},{"id":"Facebook","properties":{"Name":"Facebook","Type":"Private Company complicit in PRISM","marker-color":"#C69FCA","Location":"335 Madison Ave, New York, NY","geo_longitude":-73.97809905,"geo_latitude":40.75359115,"Floor":""},"type":"Feature","geometry":{"type":"Point","coordinates":[-73.97809905,40.75359115]}}],"type":"FeatureCollection"}
+{
+   "features":[
+      {
+         "id":"SAIC",
+         "properties":{
+            "Name":"SAIC",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"132 WEST 31ST STREET, New York, NY 10001",
+            "geo_longitude":-73.9901956122449,
+            "geo_latitude":40.7482376122449,
+            "Floor":"6th and 8th Floors"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9901956122449,
+               40.7482376122449
+            ]
+         }
+      },
+      {
+         "id":"SAIC",
+         "properties":{
+            "Name":"SAIC",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"140 BROADWAY, NEW YORK, NEW YORK 10005",
+            "geo_longitude":-74.0105674444444,
+            "geo_latitude":40.7089726666667,
+            "Floor":"Rooms 4602, 4612, \u0026 4613"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.0105674444444,
+               40.7089726666667
+            ]
+         }
+      },
+      {
+         "id":"SAIC",
+         "properties":{
+            "Name":"SAIC",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"1745 BROADWAY,\nNEW YORK, NEW YORK 10019",
+            "geo_longitude":-73.9824792290579,
+            "geo_latitude":40.7652547054801,
+            "Floor":"17th Floor"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9824792290579,
+               40.7652547054801
+            ]
+         }
+      },
+      {
+         "id":"Booz Allen Hamilton",
+         "properties":{
+            "Name":"Booz Allen Hamilton",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"1095 Avenue of the Americas, New York, NY",
+            "geo_longitude":-73.9847797019841,
+            "geo_latitude":40.7546512716628,
+            "Floor":"25th Floor"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9847797019841,
+               40.7546512716628
+            ]
+         }
+      },
+      {
+         "id":"G4S",
+         "properties":{
+            "Name":"G4S",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"19 W 44th Street, New York, NY",
+            "geo_longitude":-73.9069332,
+            "geo_latitude":40.7687963,
+            "Floor":"Suite 305"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9069332,
+               40.7687963
+            ]
+         }
+      },
+      {
+         "id":"Palantir Technologies Inc. ",
+         "properties":{
+            "Name":"Palantir Technologies Inc. ",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"15 Little W. 12th St., New York, NY",
+            "geo_longitude":-74.0067555,
+            "geo_latitude":40.739899,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.0067555,
+               40.739899
+            ]
+         }
+      },
+      {
+         "id":"L-3 Communications",
+         "properties":{
+            "Name":"L-3 Communications",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"600 3rd Ave, New York, NY 10016",
+            "geo_longitude":-73.9759175445923,
+            "geo_latitude":40.7493053,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9759175445923,
+               40.7493053
+            ]
+         }
+      },
+      {
+         "id":"Lockheed Martin",
+         "properties":{
+            "Name":"Lockheed Martin",
+            "Type":"Security contractor",
+            "marker-color":"#18BC75",
+            "Location":"420 Lexington Avenue, New York, NY 10170\u200e",
+            "geo_longitude":-73.97533,
+            "geo_latitude":40.75275,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.97533,
+               40.75275
+            ]
+         }
+      },
+      {
+         "id":"Microsoft",
+         "properties":{
+            "Name":"Microsoft",
+            "Type":"Private Company complicit in PRISM",
+            "marker-color":"#C69FCA",
+            "Location":"1290 6th Avenue, New York, NY 10104 ",
+            "geo_longitude":-73.9796,
+            "geo_latitude":40.76133,
+            "Floor":"6th Floor"
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.9796,
+               40.76133
+            ]
+         }
+      },
+      {
+         "id":"Google",
+         "properties":{
+            "Name":"Google",
+            "Type":"Private Company complicit in PRISM",
+            "marker-color":"#C69FCA",
+            "Location":"76 9th Ave, New York, NY 10011",
+            "geo_longitude":-74.0043359,
+            "geo_latitude":40.7418363,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.0043359,
+               40.7418363
+            ]
+         }
+      },
+      {
+         "id":"Apple",
+         "properties":{
+            "Name":"Apple",
+            "Type":"Private Company complicit in PRISM",
+            "marker-color":"#C69FCA",
+            "Location":"401 W 14th St, New York, NY",
+            "geo_longitude":-74.0054573,
+            "geo_latitude":40.7411861,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -74.0054573,
+               40.7411861
+            ]
+         }
+      },
+      {
+         "id":"Facebook",
+         "properties":{
+            "Name":"Facebook",
+            "Type":"Private Company complicit in PRISM",
+            "marker-color":"#C69FCA",
+            "Location":"335 Madison Ave, New York, NY",
+            "geo_longitude":-73.97809905,
+            "geo_latitude":40.75359115,
+            "Floor":""
+         },
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -73.97809905,
+               40.75359115
+            ]
+         }
+      }
+   ],
+   "type":"FeatureCollection"
+}
