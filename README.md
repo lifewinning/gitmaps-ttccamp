@@ -39,4 +39,4 @@ If you open the .geojson files in this repo, they'll render as maps. You can als
 
 ###4. copy/paste your GeoJSON into the editable file. 
 
-And now you should be able to see your own map! Hooray!
+And now you should be able to see your own map! Hooray! If you want to use your forked repository as a place to save multiple maps, just click the little arrow next to "gitmaps-ttccamp13". Then paste your data in and make sure to save the new file as a .geojson. 
