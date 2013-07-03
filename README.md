@@ -8,7 +8,7 @@ So at one of the [TTC Info-Activism Camp 2013](https://camp2013.tacticaltech.org
 
 One flaw in this skillshare was realizing **most people who don't know much about visualizing data might not know much about Github**. And they definitely don't know much about the command line, so they're not going to understand the part about committing a repository to work from it--nor will they likely ever need to. (Or if they do, this is not the tutorial for helping them do that--[this GitHub tutorial](http://try.github.io/levels/1/challenges/1) probably is better for that!)
 
-Rather than adding in steps introducing GitHub that might not be that important to someone who just wants to see their data on a map, I thought I'd make a repo with some examples that people could just [fork](https://help.github.com/articles/fork-a-repo). This creates a copy of the repository on GitHub for a user--technically it is better to clone the repository to your local machine so you have the files stored offline as well as online, but it's not actually required. 
+Rather than adding in steps introducing GitHub that might not be that important to someone who just wants to see their data on a map, I thought I'd make a repo with some examples that people could just [fork](https://help.github.com/articles/fork-a-repo). This creates a copy of the repository on GitHub in the user's account.
 
 This is *not* a total solution for visualizing geodata. It's a good way to start scratching the surface of your data and learning how to use GitHub and open-source mapping libraries. The [GitHub Mapping Doucmentation](https://help.github.com/articles/mapping-geojson-files-on-github) is a great start, and the [LeafletJS documentation](http://leafletjs.com/examples/geojson.html) and [Mapbox Marker Styling](http://www.mapbox.com/developers/simplestyle/) also are helpful resources. 
 
@@ -29,12 +29,9 @@ I was originally going to write out all of these instructions again, but I reali
 
 ###2. Turn Data into GeoJSON file
 
-In the [Mapbox tutorial](http://www.mapbox.com/geo-for-google-docs/) this already is covered. A quick 
+In the [Mapbox tutorial](http://www.mapbox.com/geo-for-google-docs/) this already is covered. Once you have your geoJSON file, save it to your machine.
 
 ###3. Look at the example GeoJSON files
 
 If you open the .geojson files in this repo, they'll initially render as maps. But if you go to view the code, you can see some comments I've added on styling conventions in use and just get a better understanding of GeoJSON syntax. 
-
-###4. Paste in your GeoJSON
-
-And now you should be able to see your own map! Hooray! 
+ 
