@@ -12,7 +12,7 @@ One flaw in this skillshare was realizing **most people who don't know much abou
 
 Rather than adding in steps introducing GitHub that might not be that important to someone who just wants to see their data on a map, I thought I'd make a repo with some examples that people could just [fork](https://help.github.com/articles/fork-a-repo). This creates a copy of the repository on GitHub for a user--technically it is better to clone the repository to your local machine so you have the files stored offline as well as online, but it's not actually required. 
 
-This is *not* a total solution for visualizing geodata. It's a good way to start scratching the surface of your data and learning how to use GitHub and open-source mapping libraries. The [GitHub Mapping Doucmentation](https://help.github.com/articles/mapping-geojson-files-on-github) is a great start, and the [LeafletJS documentation](http://leafletjs.com/examples/geojson.html) and [Mapbox Marker Styling](http://www.mapbox.com/developers/simplestyle/) also are helpful resources. 
+This is *not* a total solution for visualizing geodata. It's a good way to start scratching the surface of your data and learning how to use GitHub and open-source mapping libraries. The [GitHub Mapping Documentation](https://help.github.com/articles/mapping-geojson-files-on-github) is a great start, and the [LeafletJS documentation](http://leafletjs.com/examples/geojson.html) and [Mapbox Marker Styling](http://www.mapbox.com/developers/simplestyle/) also are helpful resources. 
 
 Poke around this demo, fork it, go forth, make maps, and have fun! And if you want more tl;dr from me on mapping tools and options, read the ABOUT document. 
 
